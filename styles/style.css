@@ -104,3 +104,26 @@ nav{
     font-size:30px;
     margin:10px 0;
 }
+/* -----Footer-section----- */
+footer{
+    width: 500px;
+    margin:0 auto;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+   margin:0 auto;
+}
+.footer-image img{
+    width:450px;
+    margin-top:150px;
+}
+.footer-icon i{
+    color:white;
+    background-color:dimgray;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    border-radius:10px;
+    margin-bottom: 5px;
+}
