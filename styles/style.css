@@ -27,8 +27,8 @@ h1{
     font-size:60px;
     color:#FFFFFF;
 }
-.banner-container{
-    width: 1070px;
+.container{
+    width: 1050px;
     justify-content: center;
     align-items: center;
     margin:0 auto;
@@ -65,6 +65,42 @@ nav{
 .half-width{
     width:50%
 }
-.banner-image img{
+.banner-image img,.highlight-image img{
     width:100%;
+}
+/* -----Players-section----- */
+.player-title{
+    text-align: center;
+    font-size:45px;
+    margin:20px 0;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px;
+}
+.player{
+    padding: 15px;
+    box-shadow: 0px 0px 40px #00000026;
+    border-radius: 3px;
+}
+.player p{
+    width:300px;
+    text-align: justify;
+}
+.player-image img{
+    width:300px;
+    height: 256px;
+    border-radius:5px;
+}
+
+/* -----Highlight-section----- */
+.highlight-area{
+    display: flex;
+    align-items: center;
+    margin-top: 165px;
+}
+.highlight-title{
+    font-size:30px;
+    margin:10px 0;
 }
