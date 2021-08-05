@@ -21,7 +21,17 @@ main{
     color:white;
     outline: none;
     border:none;
-    border-radius:1px;
+    font-size:18px;
+    border-radius:2px;
+    font-weight:bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: deeppink;
+}
+.btn:hover .right-arrow{
+    margin-left:10px;
+    transition: 2s;
 }
 h1{
     font-size:60px;
@@ -104,6 +114,24 @@ nav{
     font-size:30px;
     margin:10px 0;
 }
+/* -----Scorer-section----- */
+.scorer-section{
+    background-image: linear-gradient(#426aee,skyblue);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 100px;
+}
+.scorer-info h2{
+    font-size:35px;
+    color:white;
+}
+.scorer-info p{
+    color:white;
+}
+.scorer-image img{
+    width:100%;
+}
 /* -----Footer-section----- */
 footer{
     width: 500px;
@@ -112,7 +140,6 @@ footer{
     flex-direction:column;
     justify-content:center;
     align-items: center;
-   margin:0 auto;
 }
 .footer-image img{
     width:450px;
@@ -126,4 +153,9 @@ footer{
     text-align: center;
     border-radius:10px;
     margin-bottom: 5px;
+}
+footer p{
+    font-size:18px;
+    font-weight: bold;
+    padding:5px 0;
 }
