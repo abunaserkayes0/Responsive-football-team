@@ -140,10 +140,11 @@ footer{
     flex-direction:column;
     justify-content:center;
     align-items: center;
+    padding-bottom:30px;
 }
 .footer-image img{
     width:450px;
-    margin-top:150px;
+    margin-top:100px;
 }
 .footer-icon i{
     color:white;
