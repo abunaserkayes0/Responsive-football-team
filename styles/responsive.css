@@ -1,0 +1,36 @@
+@media only screen and (max-width:688px){
+    header {
+        width:800px;
+    }
+    h1{
+        font-size:35px;
+    }
+    .container{
+        width:100%;
+    }
+    nav{
+        justify-content:center;
+    }
+    .menu-section{
+        display: none;
+    }
+    .btn{
+        font-size:14px;
+        font-weight:normal;
+    }
+    .banner-area,.highlight-area{
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+    }
+    .banner-image img,.highlight-image img{
+        max-width:80%;
+        margin-top:5%;
+    }
+    .players{
+        grid-template-columns:repeat(2,1fr);
+    }
+    .player-image{
+        width:200px;
+    }
+}

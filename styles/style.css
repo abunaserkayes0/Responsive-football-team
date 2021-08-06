@@ -132,6 +132,36 @@ nav{
 .scorer-image img{
     width:100%;
 }
+/* -----Club-section----- */
+.club-info{
+    margin-top:3em;
+}
+.club-title{
+    text-align: center;
+    font-size:40px;
+}
+.clubs{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap:15px;
+}
+.club{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.club-image img{
+    width:250px;
+    height:auto;
+}
+.club-detail h3
+{
+    margin:5px 0;
+    font-size:25px;
+}
+.club-detail button{
+    margin:10px 0;
+}
 /* -----Footer-section----- */
 footer{
     width: 500px;
