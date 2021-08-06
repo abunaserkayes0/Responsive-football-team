@@ -1,32 +1,38 @@
-@media only screen and (max-width:480px) {
-    .section-title {
-        font-size:30px;
-        margin-left: ;
-    }
-    h1{
-        font-size:35px;
-    }
-    .container{
-        width:100%;
+@media only screen and (max-width:688px) {
+    header{
+        width: 690px;
     }
     nav{
-        visibility: hidden;
-
+        display:none;
+        visibility:hidden;
     }
-    .btn{
-        font-size:14px;
-        font-weight:normal;
-    }
-    .banner-area,.highlight-area{
+    .banner-area {
+        margin-top:0;
         flex-direction: column;
-        justify-content:center;
-        align-items:center;
+        background-color: #2D25A0;
     }
-    .banner-image img,.highlight-image img{
-        max-width:100%;
+    .banner-image img,.highlight-image img {
+        width:70%;
         margin-top:5%;
     }
-    .players{
-        grid-template-columns:repeat(1,1fr);
+    h1{
+        font-size:40px;
+    }
+    .player-title{
+        font-size:30px;
+    }
+    .players,clubs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .player{
+        box-shadow: none;
+        margin: 0px 18%;
+    }
+    .highlight-area{
+        display: block;
+        width:500px;
+        height:auto;
+        margin: 0 auto;
     }
 }
